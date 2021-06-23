@@ -1,0 +1,24 @@
+﻿生成启动时间为 2021/6/15 14:03:08。
+     1>项目“E:\Project\HT_RTK\RTK_POST\RTK_POST\RTK_POST.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>main.c(22): warning C4244: “函数”: 从“time_t”转换到“double”，可能丢失数据
+     1>main.c(38): warning C4018: “<”: 有符号/无符号不匹配
+     1>main.c(150): warning C4013: “ReadRinex”未定义；假设外部返回 int
+     1>main.c(109): warning C4101: “ifp”: 未引用的局部变量
+     1>main.c(110): warning C4101: “i”: 未引用的局部变量
+     1>main.c(116): warning C4101: “prcopt”: 未引用的局部变量
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Project\HT_RTK\RTK_POST\Release\RTK_POST.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Project\HT_RTK\RTK_POST\Release\RTK_POST.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Project\HT_RTK\RTK_POST\Release\RTK_POST.lib" /MACHINE:X86 /SAFESEH Release\lambda_ffrt.obj
+         Release\main.obj
+         Release\RelPos.obj
+         Release\rinex.obj
+         正在生成代码
+         已完成代码的生成
+         RTK_POST.vcxproj -> E:\Project\HT_RTK\RTK_POST\Release\RTK_POST.exe
+     1>已完成生成项目“E:\Project\HT_RTK\RTK_POST\RTK_POST\RTK_POST.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.68

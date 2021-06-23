@@ -1,0 +1,6 @@
+---- opt.nf Matches (5 in 2 files) ----
+main in main.c : 	opt.nf = 2;
+rtkpos.c (E:\Project\HT_RTK\RTK_POST\RTK_POST) line 610 :     for (f=0;f<rtk->opt.nf;f++) {
+rtkpos.c (E:\Project\HT_RTK\RTK_POST\RTK_POST) line 659 :     for (k=1;k<rtk->opt.nf;k++) {
+rtkpos.c (E:\Project\HT_RTK\RTK_POST\RTK_POST) line 683 :     for (f=0;f<rtk->opt.nf;f++) {
+rtkpos.c (E:\Project\HT_RTK\RTK_POST\RTK_POST) line 718 :         for (k=0;k<rtk->opt.nf;k++) rtk->ssat[sat[i]-1].slip[k]&=0xFC;
